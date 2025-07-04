@@ -80,7 +80,6 @@ class Game {
     currentMonster.showStatus();
     while (character!.isAlive() && currentMonster.isAlive()) {
       print('\n${character!.name}의 턴');
-      // character!.showStatus();
       print('행동을 선택하세요 (1: 공격, 2: 방어):');
       String? choice = stdin.readLineSync()?.trim();
       if (choice == '2') {

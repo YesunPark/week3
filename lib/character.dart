@@ -12,8 +12,6 @@ class Character extends GameEntity {
       damage = damage > 0 ? damage : 0;
       target.health -= damage;
       print('$name이(가) ${target.name}에게 $damage의 데미지를 입혔습니다.');
-      // target.showStatus();
-      // showStatus();
     }
   }
 
